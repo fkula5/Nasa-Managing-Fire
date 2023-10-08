@@ -1,0 +1,22 @@
+[
+    {
+        "question": "Jakie są podstawowe zasady bezpieczeństwa przeciwpożarowego?",
+        "answer": "Podstawowe zasady bezpieczeństwa przeciwpożarowego obejmują zainstalowanie działających detektorów dymu, regularne sprawdzanie i wymianę baterii w tych detektorach, unikanie przeciążania gniazdek elektrycznych, nie zostawianie niesprawdzonych świec lub źródeł otwartego ognia bez nadzoru oraz naukę planu ewakuacji i regularne ćwiczenie jego realizacji."
+    },
+    {
+        "question": "Co robić w przypadku pożaru?",
+        "answer": "W przypadku pożaru natychmiast powiadom służby ratunkowe, używając numeru alarmowego 112 lub odpowiedniego numeru alarmowego w Twoim regionie. Następnie postępuj zgodnie z planem ewakuacji, opuszczając budynek i nie wracając do niego, aby zbierać rzeczy osobiste, jeśli to nie jest bezpieczne."
+    },
+    {
+        "question": "Jakie są najczęstsze przyczyny pożarów w domu?",
+        "answer": "Najczęstsze przyczyny pożarów w domu to niewłaściwe użytkowanie sprzętu elektrycznego, gotowanie pozostawione bez nadzoru, palenie papierosów w łóżku lub w pomieszczeniach, gdzie nie wolno palić, zbyt bliski kontakt z źródłami ognia, takimi jak świeczki lub kominek, nieszczelne instalacje gazowe, zanieczyszczona kuchenka lub piekarnik oraz nieprawidłowo składowane substancje łatwopalne, jak farby lub chemikalia."
+    },
+    {
+        "question": "Jakie są kroki do podjęcia podczas ewakuacji z budynku podczas pożaru?",
+        "answer": "Podczas ewakuacji z budynku podczas pożaru należy natychmiast opuścić pomieszczenie, zamykając drzwi za sobą, jeśli to możliwe, aby zatrzymać rozprzestrzenianie się ognia i dymu. Jeśli drzwi są gorące, nie otwieraj ich. Użyj mokrego ręcznika lub ubrania, aby uszczelnić szczeliny drzwi i okien, a następnie czekaj na pomoc. Jeśli drzwi są chłodne, otwórz je ostrożnie i sprawdź, czy nie ma ognia po drugiej stronie. Jeśli jest bezpiecznie, kontynuuj ewakuację. W czasie ewakuacji kładź się na ziemi, jeśli jest dużo dymu, ponieważ powietrze jest czystsze bliżej podłogi. Używaj wyznaczonych dróg ewakuacyjnych i spotkaj się z rodziną lub innymi osobami na bezpiecznym miejscu poza budynkiem."
+    },
+    {
+        "question": "Jakie są zasady używania gaśnicy?",
+        "answer": "Przeczytaj instrukcję obsługi gaśnicy przed jej użyciem. Używaj gaśnicy tylko wtedy, gdy jesteś pewien, że jesteś w stanie ugasić ogień i masz bezpieczny punkt ucieczki. Użyj techniki P.A.S.S. (Przybliż, Cel, Spryskaj, Sprawdź): 1. Przybliż się do ognia, ale nie zbliżaj się zbyt blisko. 2. Cel dyszącą część gaśnicy w kierunku źródła ognia. 3. Spryskaj gaśnicę, trzymając ją pionowo i poruszając się w lewo i prawo. 4. Sprawdź, czy ogień został ugasił. Jeśli nie, powiadom służby ratunkowe i ewakuuj się."
+    }
+]
