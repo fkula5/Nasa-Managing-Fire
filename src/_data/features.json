@@ -1,32 +1,33 @@
 [
   {
-    "title": "AWE.SOME Feature One",
+    "title": "SPOŁECZNOŚĆ",
     "icon": "icon1.svg",
-    "content": "Maecenas pulvinar ultricies dolor, vitae sagittis nunc aliquam non. Cras vitae eros mi. Pellentesque ac orci mi. Ut dignissim tincidunt ex id tincidunt."
+    "content": "Najważniejszym elementem systemu są ludzie, to dzięki nim możemy reagować na zagrożenia jeszcze szybciej, to oni są pierwszą linią kontaktu z zagrożeniem jako obserwatorzy oraz osoby zagrożone. Z tego względu udostępniamy możliwość zgłaszania zagrożeń poprzez użytkowników, a dla tych zagrożonych przewidujemy alerty ostrzegawcze ze wskazówkami pomocnymi w ewakuacji i nie tylko."
   },
   {
-    "title": "AWE.SOME Feature Two",
+    "title": "AI",
     "icon": "icon2.svg",
-    "content": "Maecenas pulvinar ultricies dolor, vitae sagittis nunc aliquam non. Cras vitae eros mi. Pellentesque ac orci mi. Ut dignissim tincidunt ex id tincidunt."
+    "content": "W erze rosnącego wykorzystania AI w wielu dziedzinach życia, jest to jedno z najlepszych narzędzi do analizy dużych baz danych i wykonywania predykcji na ich podstawie. Został przez nas stworzony model sztucznej inteligencji wykorzystujący dane otrzymane w ramach wyzwania oraz otwarto źródłowe bazy. W przyszłości używać ma również danych z systemu czujników opartego o bramki LoRa o dużym zasięgu."
   },
   {
-    "title": "AWE.SOME Feature Three",
-    "icon": "icon3.svg",
-    "content": "Maecenas pulvinar ultricies dolor, vitae sagittis nunc aliquam non. Cras vitae eros mi. Pellentesque ac orci mi. Ut dignissim tincidunt ex id tincidunt."
-  },
-  {
-    "title": "AWE.SOME Feature Four",
+    "title": "SYSTEM CZUJNIKÓW",
     "icon": "icon4.svg",
-    "content": "Maecenas pulvinar ultricies dolor, vitae sagittis nunc aliquam non. Cras vitae eros mi. Pellentesque ac orci mi. Ut dignissim tincidunt ex id tincidunt."
+    "content": "Pomimo zaawansowania technologicznego wciąż istnieje wiele obszarów pozbawionych zasięgu czy dostępu do internetu. Wychodząc temu naprzeciw proponujemy innowacyjne rozwiązanie wykorzystujące czujniki i bramki LoRa, które umożliwiają komunikację bez internetu. Ich zaletą jest również niskie zużycie energii."
   },
   {
-    "title": "AWE.SOME Feature Five",
+    "title": "APLIKACJA WEB ",
     "icon": "icon5.svg",
-    "content": "Maecenas pulvinar ultricies dolor, vitae sagittis nunc aliquam non. Cras vitae eros mi. Pellentesque ac orci mi. Ut dignissim tincidunt ex id tincidunt."
+    "content": "Dane otrzymane od użytkowników, oraz zebrane z czujników i satelit, a następnie odpowiednio przetworzone przez AI prezentowane są w ramach strony www.  Oferuje ona mapy zagrożeń, znaczniki stref bezpieczeństwa i śledzenie pożarów w czasie rzeczywistym. Umożliwia również zgłaszanie pożarów i informowanie użytkowników o zagrożeniach w ich okolicy poprzez integrację z krajowym systemem RCB."
   },
   {
-    "title": "AWE.SOME Feature Six",
+    "title": "Integracja z systemami rządowymi",
+    "icon": "icon3.svg",
+    "content": "Przewidujemy połączenie systemu z rządowymi kanałami ostrzeżeń (np. RCB), dodatkowo zgłoszenia natychmiast trafiają do odpowiednich służb."
+
+  },
+  {
+    "title": "System ostrzegania",
     "icon": "icon6.svg",
-    "content": "Maecenas pulvinar ultricies dolor, vitae sagittis nunc aliquam non. Cras vitae eros mi. Pellentesque ac orci mi. Ut dignissim tincidunt ex id tincidunt."
+    "content": "Osoby pośrednio i bezpośrednio zagrożone pożarem będą powiadamiane za pomocą alertów na telefony komórkowe."
   }
 ]

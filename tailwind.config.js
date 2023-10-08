@@ -21,7 +21,9 @@ module.exports = {
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
-
+      basered: '#FF2626',
+      darkred: '#950000',
+      hoverred: '#700000',
       black: colors.black,
       white: colors.white,
       gray: colors.coolGray,

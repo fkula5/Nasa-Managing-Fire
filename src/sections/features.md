@@ -1,6 +1,6 @@
 ---
 title: Most AWE.SOME Features
-afterTitle: ...and so much more!
+afterTitle: ... i wiele więcej!
 type: features
 ---
 

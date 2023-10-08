@@ -20,9 +20,22 @@
 {%- endif -%}
 <!-- ./END SOCIAL META DATA -->
 <meta name="theme-color" content="#ffffff">
-<title>{{ title or site.title }} | {{ site.author }}</title>
+<title>PREDICTO</title>
 <link rel="stylesheet" href="/css/page.css">
 {% if not isFront %}
   <!-- include Normalize for regular text pages -->
   <link rel="stylesheet"  href="/css/normalize.min.css">
 {% endif %}
+<link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
+    <script src="scripts/leaflet-heat.js"></script>
