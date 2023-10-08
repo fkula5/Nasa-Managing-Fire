@@ -47,44 +47,38 @@ function getPolygonStyle(feature) {
     let heatLayer;
 
 var cityData1 = [
-    [48.8566, 2.3522],   // Paris, France
-    [51.5074, -0.1278],  // London, United Kingdom
-    [41.9028, 12.4964],  // Rome, Italy
-    [52.5200, 13.4050],  // Berlin, Germany
-    [48.2100, 16.3636],  // Vienna, Austria
-    [52.3676, 4.9041],   // Amsterdam, Netherlands
-    [41.3851, 2.1734],   // Barcelona, Spain
-    [38.7223, -9.1393],  // Lisbon, Portugal
-    [50.8503, 4.3517],   // Brussels, Belgium
-    [55.7558, 37.6176]   // Moscow, Russia
+    [48.8566, 2.3522, 0.4],   // Paris, France
+    [51.5074, -0.1278, 0.3],  // London, United Kingdom
+    [41.9028, 12.4964, 0.7],  // Rome, Italy
+    [52.5200, 13.4050, 0.3],  // Berlin, Germany
+    [48.2100, 16.3636, 0.5],  // Vienna, Austria
+    [52.3676, 4.9041, 0.1],   // Amsterdam, Netherlands
+    [41.3851, 2.1734, 0.3],   // Barcelona, Spain
+    [38.7223, -9.1393, 0.4],  // Lisbon, Portugal
+    [50.8503, 4.3517, 0.5],   // Brussels, Belgium
+    [55.7558, 37.6176, 0.6],   // Moscow, Russia
+    [33.6844, -117.8265, 0.8],  // Irvine, USA
+    [37.3541, -121.9552, 0], // San Jose, USA
+    [32.7157, -117.1611, 0.1],  // San Diego, USA
+    [34.0522, -118.2437, 0.2],  // Los Angeles, USA
+    [37.7749, -122.4194, 0.3],  // San Francisco, USA
+    [48.8588, 2.3470, 0.4],     // Montmartre, France
+    [51.0450, 13.7373, 0.5],    // Dresden, Germany
+    [50.9375, 6.9603, 0.6],     // Cologne, Germany
+    [45.75, 4.85, 0.7],         // Lyon, France
+    [52.5200, 4.9041, 0.8],      // Amsterdam, Netherlands
+    [40.7128, -74.0060, 0.9],   // New York City, USA
+    [34.0522, -118.2437, 1],  // Los Angeles, USA
+    [37.7749, -122.4194, 0.1],  // San Francisco, USA
+    [35.6895, 139.6917, 0.2],   // Tokyo, Japan
+    [41.9028, 12.4964, 0.3],    // Vatican City
+    [55.7558, 37.6176, 0.4],    // Moscow, Russia
+    [48.8566, 2.3522, 0.5],     // Paris, France
+    [51.5074, -0.1278, 0.6],    // London, United Kingdom
+    [41.9028, 12.4964, 0.7],    // Rome, Italy
+    [52.5200, 13.4050, 0.8]     // Berlin, Germany
 ];
 
-var cityData2 = [
-    [40.7128, -74.0060],   // New York City, USA
-    [34.0522, -118.2437],  // Los Angeles, USA
-    [37.7749, -122.4194],  // San Francisco, USA
-    [35.6895, 139.6917],   // Tokyo, Japan
-    [41.9028, 12.4964],    // Vatican City
-    [55.7558, 37.6176],    // Moscow, Russia
-    [48.8566, 2.3522],     // Paris, France
-    [51.5074, -0.1278],    // London, United Kingdom
-    [41.9028, 12.4964],    // Rome, Italy
-    [52.5200, 13.4050]     // Berlin, Germany
-];
-
-
-var cityData3 = [
-    [33.6844, -117.8265],  // Irvine, USA
-    [37.3541, -121.9552],  // San Jose, USA
-    [32.7157, -117.1611],  // San Diego, USA
-    [34.0522, -118.2437],  // Los Angeles, USA
-    [37.7749, -122.4194],  // San Francisco, USA
-    [48.8588, 2.3470],     // Montmartre, France
-    [51.0450, 13.7373],    // Dresden, Germany
-    [50.9375, 6.9603],     // Cologne, Germany
-    [45.75, 4.85],         // Lyon, France
-    [52.5200, 4.9041]      // Amsterdam, Netherlands
-];
 
 function updateHeatData(selectedOption){
     let selectedData;
@@ -93,8 +87,6 @@ function updateHeatData(selectedOption){
     }else if(selectedOption == "predict"){
         selectedData = pointsHistorical;
     }else if(selectedOption == "warn"){
-        selectedData = cityData2;
-    }else{
         selectedData = cityData1;
     }
 
